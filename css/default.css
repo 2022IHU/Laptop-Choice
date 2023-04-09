@@ -1,0 +1,14 @@
+body {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ebecf0;
+  /* background: linear-gradient(to left, #859398, #283048); */
+}
+
+* {
+  font-family: "Sunflower", sans-serif;
+}

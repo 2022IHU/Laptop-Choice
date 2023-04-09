@@ -1,0 +1,115 @@
+#result {
+  display: none;
+  width: auto;
+  height: auto;
+  padding: 50px;
+  border-radius: 20px;
+
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+  box-sizing: border-box;
+  background-color: #ebecf0;
+}
+
+.type_container,
+.purpose_container {
+  position: relative;
+  width: 320px;
+}
+
+.type,
+.purpose {
+  margin-bottom: 35px;
+  font-size: 20px;
+}
+
+.resultname,
+.purposeDes {
+  margin-bottom: 35px;
+  font-size: 24px;
+}
+
+.type {
+  display: inline-block;
+  padding: 15px;
+  border-radius: 20px;
+  font-weight: bold;
+
+  background-color: #ebecf0;
+  color: #8c8c8c;
+  box-shadow: -5px -5px 20px #fff, 5px 5px 20px #babecc;
+  text-shadow: 1px 1px 1px #fff;
+}
+.resultname {
+  position: absolute;
+  display: inline-block;
+  right: 0;
+
+  padding: 15px;
+  border-radius: 20px;
+  font-weight: bold;
+
+  background-color: #ebecf0;
+  color: #8c8c8c;
+  box-shadow: -5px -5px 20px #fff, 5px 5px 20px #babecc;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+.purpose {
+  display: inline-block;
+  padding: 15px;
+  border-radius: 20px;
+  font-weight: bold;
+
+  background-color: #ebecf0;
+  color: #8c8c8c;
+  box-shadow: -5px -5px 20px #fff, 5px 5px 20px #babecc;
+  text-shadow: 1px 1px 1px #fff;
+}
+.purposeDes {
+  position: absolute;
+  display: inline-block;
+  right: 0;
+
+  display: inline-block;
+  padding: 15px;
+  border-radius: 20px;
+  font-weight: bold;
+
+  background-color: #ebecf0;
+  color: #8c8c8c;
+  box-shadow: -5px -5px 20px #fff, 5px 5px 20px #babecc;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+.result_container {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.recommend {
+  display: block;
+  font-size: 22px;
+  padding: 5px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-bottom: 35px;
+
+  background-color: #ebecf0;
+  color: #8c8c8c;
+  box-shadow: -5px -5px 20px #fff, 5px 5px 20px #babecc;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+.resultDesc {
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 25px;
+  font-weight: bold;
+
+  background-color: #ebecf0;
+  color: #8c8c8c;
+  box-shadow: -5px -5px 20px #fff, 5px 5px 20px #babecc;
+  text-shadow: 1px 1px 1px #fff;
+}

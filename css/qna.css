@@ -93,7 +93,13 @@
 .progressBar {
   height: 100%;
   border-radius: 15px;
-  background-color: #47c83e;
+  background: repeating-linear-gradient(
+    -45deg,
+    #666,
+    #666 10px,
+    #babecc 0,
+    #babecc 20px
+  );
   transition: width 1s ease-in-out;
   align-items: center;
   justify-content: center;

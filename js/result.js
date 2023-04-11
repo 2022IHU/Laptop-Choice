@@ -1,4 +1,5 @@
 const result = document.querySelector("#result");
+const re_btn = document.querySelector(".restart");
 
 const endPoint = 4; // 질문의 수
 const select = [0, 0, 0, 0, 0]; // 사용자의 답변을 추적하기 위한 배열
@@ -45,3 +46,8 @@ function goResult() {
     setResult();
   }, 450);
 }
+
+// 버튼 클릭시 리셋
+re_btn.addEventListener("click", () => {
+  location.reload();
+});
